@@ -100,6 +100,6 @@ function buildCharts(sample) {
       yaxis: {title: "ID's"} 
     };
     // 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("bubble",bubbleData, bubbleLayout)  
+    Plotly.newPlot("bar",barData, barLayout)
   });
 }
